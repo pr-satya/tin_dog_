@@ -1,0 +1,202 @@
+body{
+  font-family:Montserrat;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1{
+  font-family: "Montserrat-Black"
+  font-size:3rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+h3{
+  font-weight: bold;
+}
+
+h2{
+  font-family: Montserrat-bold;
+  text-align: center;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+p{
+  text-align: center;
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+/* navigation Bar */
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand{
+  font-family: "ubantu";
+  font-size: 2rem;
+  font-weight: 300;
+}
+.nav-item{
+  padding: 0 12px;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* image */
+
+.title-image{
+   width: 15%;
+   transform: rotate(25deg);
+    position:absolute;
+    padding-bottom: 350px;
+    right: 30%
+}
+
+/* feature section */
+
+#features{
+  padding: 6.2% 14%;
+  background-color:#fff;
+   position: relative;
+
+
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+/* Testimonials */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 15%;
+  margin:20px
+
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3.5%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 2% 2%;
+}
+
+#cta{
+    text-align:center;
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 5% 10%;
+
+}
+.cta-heading{
+  padding-top:2px;
+  font-family: "Montserrat-Black"
+  font-size:3rem;
+  line-height: 1.5;
+
+}
+#footer{
+  padding: 2% 5%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+#titledwnld{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+
+#main{
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+.head-class{
+  text-align: center;
+  padding-bottom: 40px
+}
+
+
+.footers-class{
+  color: #fff;
+}
+.login-head{
+  /* text-align: center; */
+  font-family: "Montserrat-Black"
+  padding-bottom: 40px
+
+
+}
+#login-title{
+
+}
+#login-title{
+  padding: 5% 15%;
+
+}
+.body-login{
+  background-color:#ef8172
+}
+.form-head{
+  padding: 7% 15%;
+}
+#downward{
+  background-color:#ff4c68; 
+  padding: 2% 5%;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+  }
+}
+
+
+/* download image dog */
